@@ -301,6 +301,7 @@ body {
 }
 .compare-table thead th.col-month {
   text-align: left;
+  width: 130px;
 }
 .compare-table thead th.col-strata {
   background: var(--navy);
