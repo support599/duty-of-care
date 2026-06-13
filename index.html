@@ -112,5 +112,172 @@
 
       </div>
     </section>
+
+    <section class="section-comparison">
+      <div class="container section-comparison-inner">
+
+        <a class="btn eyebrow-badge" href="#">
+          <span class="eyebrow">Strata vs. The Market</span>
+        </a>
+
+        <h2 class="section-title">Month-by-month vs. S&amp;P 500 · Gold · Crypto</h2>
+
+        <div class="compare-tabs">
+          <button class="compare-tab" onclick="showYear('2023')" id="tab-2023">2023</button>
+          <button class="compare-tab" onclick="showYear('2024')" id="tab-2024">2024</button>
+          <button class="compare-tab compare-tab--active" onclick="showYear('2025')" id="tab-2025">2025</button>
+          <button class="compare-tab" onclick="showYear('2026')" id="tab-2026">2026</button>
+        </div>
+
+        <div class="compare-table-wrap">
+
+          <!-- 2023 -->
+          <table class="compare-table" id="table-2023" style="display:none">
+            <thead>
+              <tr>
+                <th class="col-month">Month</th>
+                <th class="col-strata">Strata</th>
+                <th>S&amp;P 500</th>
+                <th>Gold</th>
+                <th>Crypto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Jan 2023</td><td class="col-strata positive">13.05%</td><td class="positive">5.80%</td><td class="positive">2.26%</td><td class="positive">30.40%</td></tr>
+              <tr class="alt"><td>Feb 2023</td><td class="col-strata positive">10.76%</td><td class="negative">-2.45%</td><td class="negative">-6.78%</td><td class="positive">3.40%</td></tr>
+              <tr><td>Mar 2023</td><td class="col-strata positive">5.86%</td><td class="positive">3.68%</td><td class="positive">5.18%</td><td class="positive">9.30%</td></tr>
+              <tr class="alt"><td>Apr 2023</td><td class="col-strata positive">4.88%</td><td class="positive">1.64%</td><td class="positive">2.28%</td><td class="positive">3.20%</td></tr>
+              <tr><td>May 2023</td><td class="col-strata positive">5.33%</td><td class="positive">0.31%</td><td class="negative">-4.95%</td><td class="negative">-6.00%</td></tr>
+              <tr class="alt"><td>Jun 2023</td><td class="col-strata positive">9.37%</td><td class="positive">6.39%</td><td class="negative">-3.49%</td><td class="positive">3.30%</td></tr>
+              <tr><td>Jul 2023</td><td class="col-strata positive">8.13%</td><td class="positive">3.11%</td><td class="positive">5.11%</td><td class="positive">1.00%</td></tr>
+              <tr class="alt"><td>Aug 2023</td><td class="col-strata positive">5.00%</td><td class="negative">-1.55%</td><td class="negative">-1.29%</td><td class="negative">-8.80%</td></tr>
+              <tr><td>Sep 2023</td><td class="col-strata positive">4.58%</td><td class="negative">-5.35%</td><td class="negative">-3.69%</td><td class="positive">2.60%</td></tr>
+              <tr class="alt"><td>Oct 2023</td><td class="col-strata positive">8.94%</td><td class="negative">-2.12%</td><td class="positive">1.52%</td><td class="positive">19.00%</td></tr>
+              <tr><td>Nov 2023</td><td class="col-strata positive">5.73%</td><td class="positive">8.72%</td><td class="positive">2.32%</td><td class="positive">11.00%</td></tr>
+              <tr class="alt"><td>Dec 2023</td><td class="col-strata positive">5.24%</td><td class="positive">4.61%</td><td class="positive">3.36%</td><td class="positive">15.20%</td></tr>
+              <tr class="total-row">
+                <td>Full Year Total</td>
+                <td class="col-strata total-strata">86.87%</td>
+                <td>28.24%</td>
+                <td>0.94%</td>
+                <td>84.40%</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- 2024 -->
+          <table class="compare-table" id="table-2024" style="display:none">
+            <thead>
+              <tr>
+                <th class="col-month">Month</th>
+                <th class="col-strata">Strata</th>
+                <th>S&amp;P 500</th>
+                <th>Gold</th>
+                <th>Crypto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Jan 2024</td><td class="col-strata positive">5.21%</td><td class="positive">2.12%</td><td class="negative">-1.31%</td><td class="positive">0.40%</td></tr>
+              <tr class="alt"><td>Feb 2024</td><td class="col-strata positive">4.93%</td><td class="positive">4.84%</td><td class="positive">0.28%</td><td class="positive">40.00%</td></tr>
+              <tr><td>Mar 2024</td><td class="col-strata positive">7.05%</td><td class="positive">3.06%</td><td class="positive">9.25%</td><td class="positive">16.30%</td></tr>
+              <tr class="alt"><td>Apr 2024</td><td class="col-strata positive">12.01%</td><td class="negative">-4.23%</td><td class="positive">2.05%</td><td class="negative">-11.30%</td></tr>
+              <tr><td>May 2024</td><td class="col-strata positive">2.51%</td><td class="positive">4.94%</td><td class="positive">1.80%</td><td class="positive">8.60%</td></tr>
+              <tr class="alt"><td>Jun 2024</td><td class="col-strata positive">3.46%</td><td class="positive">3.08%</td><td class="negative">-0.17%</td><td class="negative">-11.40%</td></tr>
+              <tr><td>Jul 2024</td><td class="col-strata positive">1.84%</td><td class="positive">0.94%</td><td class="positive">5.23%</td><td class="positive">6.10%</td></tr>
+              <tr class="alt"><td>Aug 2024</td><td class="col-strata positive">12.15%</td><td class="positive">2.00%</td><td class="positive">2.24%</td><td class="positive">4.63%</td></tr>
+              <tr><td>Sep 2024</td><td class="col-strata positive">5.00%</td><td class="positive">2.46%</td><td class="positive">5.26%</td><td class="positive">8.00%</td></tr>
+              <tr class="alt"><td>Oct 2024</td><td class="col-strata positive">7.45%</td><td class="negative">-0.91%</td><td class="positive">4.11%</td><td class="positive">2.80%</td></tr>
+              <tr><td>Nov 2024</td><td class="col-strata positive">5.39%</td><td class="positive">5.40%</td><td class="negative">-3.24%</td><td class="positive">31.74%</td></tr>
+              <tr class="alt"><td>Dec 2024</td><td class="col-strata positive">2.36%</td><td class="negative">-2.62%</td><td class="negative">-1.13%</td><td class="negative">-20.52%</td></tr>
+              <tr class="total-row">
+                <td>Full Year Total</td>
+                <td class="col-strata total-strata">67.37%</td>
+                <td>21.88%</td>
+                <td>24.37%</td>
+                <td>75.21%</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- 2025 -->
+          <table class="compare-table" id="table-2025">
+            <thead>
+              <tr>
+                <th class="col-month">Month</th>
+                <th class="col-strata">Strata</th>
+                <th>S&amp;P 500</th>
+                <th>Gold</th>
+                <th>Crypto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Jan 2025</td><td class="col-strata positive">3.83%</td><td class="positive">2.33%</td><td class="positive">6.64%</td><td class="positive">9.61%</td></tr>
+              <tr class="alt"><td>Feb 2025</td><td class="col-strata positive">3.96%</td><td class="negative">-0.25%</td><td class="positive">2.04%</td><td class="negative">-17.61%</td></tr>
+              <tr><td>Mar 2025</td><td class="col-strata positive">4.78%</td><td class="negative">-5.97%</td><td class="positive">9.32%</td><td class="negative">-2.16%</td></tr>
+              <tr class="alt"><td>Apr 2025</td><td class="col-strata positive">10.58%</td><td class="negative">-0.51%</td><td class="positive">5.29%</td><td class="positive">14.12%</td></tr>
+              <tr><td>May 2025</td><td class="col-strata positive">6.09%</td><td class="positive">5.09%</td><td class="positive">0.03%</td><td class="positive">11.07%</td></tr>
+              <tr class="alt"><td>Jun 2025</td><td class="col-strata positive">5.36%</td><td class="positive">5.23%</td><td class="positive">0.01%</td><td class="positive">2.39%</td></tr>
+              <tr><td>Jul 2025</td><td class="col-strata positive">5.47%</td><td class="positive">2.46%</td><td class="negative">-0.38%</td><td class="positive">8.04%</td></tr>
+              <tr class="alt"><td>Aug 2025</td><td class="col-strata positive">8.93%</td><td class="positive">2.75%</td><td class="positive">4.78%</td><td class="negative">-6.48%</td></tr>
+              <tr><td>Sep 2025</td><td class="col-strata positive">11.89%</td><td class="positive">4.48%</td><td class="positive">12.03%</td><td class="positive">5.38%</td></tr>
+              <tr class="alt"><td>Oct 2025</td><td class="col-strata positive">4.09%</td><td class="positive">2.63%</td><td class="positive">3.60%</td><td class="negative">-3.95%</td></tr>
+              <tr><td>Nov 2025</td><td class="col-strata positive">5.33%</td><td class="negative">-0.48%</td><td class="positive">5.50%</td><td class="negative">-17.49%</td></tr>
+              <tr class="alt"><td>Dec 2025</td><td class="col-strata positive">0.81%</td><td class="negative">-0.48%</td><td class="negative">-0.59%</td><td class="positive">2.55%</td></tr>
+              <tr class="total-row">
+                <td>Full Year Total</td>
+                <td class="col-strata total-strata">65.27%</td>
+                <td>27.49%</td>
+                <td>44.26%</td>
+                <td>3.47%</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <!-- 2026 -->
+          <table class="compare-table" id="table-2026" style="display:none">
+            <thead>
+              <tr>
+                <th class="col-month">Month</th>
+                <th class="col-strata">Strata</th>
+                <th>S&amp;P 500</th>
+                <th>Gold</th>
+                <th>Crypto</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td>Jan 2026</td><td class="col-strata positive">6.60%</td><td class="positive">0.89%</td><td class="positive">12.75%</td><td class="negative">-10.16%</td></tr>
+              <tr class="alt"><td>Feb 2026</td><td class="col-strata positive">2.84%</td><td class="negative">-1.21%</td><td class="positive">5.00%</td><td class="negative">-13.57%</td></tr>
+              <tr><td>Mar 2026</td><td class="col-strata positive">15.51%</td><td class="negative">-5.76%</td><td class="positive">10.08%</td><td class="positive">1.24%</td></tr>
+              <tr class="alt"><td>Apr 2026</td><td class="col-strata positive">6.42%</td><td class="negative">-0.76%</td><td class="positive">5.83%</td><td class="positive">13.61%</td></tr>
+              <tr><td>May 2026</td><td class="col-strata positive">3.68%</td><td class="positive">6.15%</td><td class="negative">-0.49%</td><td class="negative">-2.67%</td></tr>
+              <tr class="alt"><td>Jun 2026</td><td class="col-strata positive">1.19%</td><td class="neutral">—</td><td class="neutral">—</td><td class="neutral">—</td></tr>
+              <tr class="total-row">
+                <td>YTD Total</td>
+                <td class="col-strata total-strata">41.37%</td>
+                <td>-2.34%</td>
+                <td>17.75%</td>
+                <td>-23.73%</td>
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <p class="compare-note">Strata figures from Myfxbook (live, verified). S&amp;P 500 and Gold monthly returns sourced from Yahoo Finance; Crypto (Bitcoin) from CoinGecko historical price data.</p>
+
+      </div>
+    </section>
+
+    <script>
+      function showYear(year) {
+        document.querySelectorAll('.compare-table').forEach(function(t) { t.style.display = 'none'; });
+        document.getElementById('table-' + year).style.display = 'table';
+        document.querySelectorAll('.compare-tab').forEach(function(b) {
+          b.classList.remove('compare-tab--active');
+        });
+        document.getElementById('tab-' + year).classList.add('compare-tab--active');
+      }
+    </script>
+
   </body>
 </html>
