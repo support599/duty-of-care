@@ -344,6 +344,27 @@ body {
   background: var(--navy);
   color: #22c55e;
 }
+.compare-headline {
+  font-size: clamp(30px, 5.5vw, 56px);
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: -0.4px;
+  color: var(--navy);
+  max-width: 800px;
+  margin: 0 auto var(--sp-2);
+}
+.compare-strata {
+  font-family: 'Posterama2001', sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+.compare-lead {
+  font-size: clamp(15px, 1.6vw, 18px);
+  line-height: 1.7;
+  color: var(--muted);
+  max-width: 560px;
+  margin: 0 auto var(--sp-2);
+}
 .compare-note {
   font-size: 12px;
   color: var(--muted);
