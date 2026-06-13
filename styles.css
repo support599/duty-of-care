@@ -56,7 +56,7 @@ body {
 
 /* ── Hero section ────────────────────── */
 .hero {
-  padding: var(--sp-5) 0 var(--sp-6);   /* 48px top, 64px bottom */
+  padding: var(--sp-3) 0 var(--sp-6);   /* 24px top, 64px bottom */
 }
 .hero-inner { text-align: center; }
 
@@ -202,8 +202,8 @@ body {
 }
 .perf-badges-wrap::-webkit-scrollbar { display: none; }
 .perf-badges {
-  display: inline-flex;
-  flex-wrap: nowrap;
+  display: flex;
+  flex-wrap: wrap;
   gap: 6px;
 }
 .perf-badge {
