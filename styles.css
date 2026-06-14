@@ -460,11 +460,7 @@ body {
 /* ── Co-Founder section ──────────────── */
 /* ── Results section ── */
 .section-results {
-  background-color: #f0f4f1;
-  background-image:
-    linear-gradient(rgba(11, 23, 54, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(11, 23, 54, 0.03) 1px, transparent 1px);
-  background-size: 36px 36px;
+  background: #fff;
   padding: var(--sp-6) 0;
 }
 .section-results-inner {
