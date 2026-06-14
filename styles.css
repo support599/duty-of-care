@@ -229,7 +229,7 @@ body {
   display: flex;
   align-items: flex-start;
   gap: var(--sp-3);
-  background: #111;
+  background: #f0f4f1;
   border-radius: 6px;
   padding: var(--sp-3) var(--sp-4);
   text-align: left;
@@ -247,7 +247,7 @@ body {
 .info-card-text {
   font-size: 15px;
   line-height: 1.7;
-  color: #fff;
+  color: var(--navy);
   margin: 0;
 }
 .perf-card {
