@@ -1235,7 +1235,6 @@ body {
   font-weight: 700;
   color: var(--navy);
   margin: 0 0 2px;
-  white-space: nowrap;
 }
 .press-title {
   font-size: 14px;
