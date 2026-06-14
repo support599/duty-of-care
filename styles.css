@@ -754,6 +754,49 @@ body {
   max-width: 640px;
   margin: 0 auto;
 }
+.founder-name-row {
+  display: flex;
+  align-items: center;
+  gap: var(--sp-2);
+  flex-wrap: wrap;
+}
+.founder-linkedin-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  opacity: 0.92;
+  transition: opacity 0.15s;
+}
+.founder-linkedin-btn:hover { opacity: 1; }
+.linkedin-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #0A66C2;
+  border-radius: 4px;
+  padding: 3px 6px 3px 6px;
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1;
+  gap: 2px;
+}
+.linkedin-linked {
+  letter-spacing: -0.2px;
+}
+.linkedin-in {
+  background: #fff;
+  color: #0A66C2;
+  border-radius: 3px;
+  padding: 1px 3px;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.2;
+}
+.founder-linkedin-ext {
+  color: rgba(255,255,255,0.5);
+}
 .founder-dark-name {
   font-size: 20px;
   font-weight: 700;
