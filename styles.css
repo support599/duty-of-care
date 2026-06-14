@@ -322,15 +322,9 @@ body {
 .compare-table tbody tr.alt {
   background: #fafafa;
 }
-.compare-table tbody td.col-strata {
-  background: #f0f2f7;
-  color: var(--navy);
-  font-weight: 600;
-}
 .positive { color: #16a34a; }
 .negative { color: #dc2626; }
 .neutral  { color: var(--muted); }
-.compare-table tbody td.col-strata.positive { color: #16a34a; }
 .compare-table tr.total-row td {
   background: var(--navy);
   color: #fff;
