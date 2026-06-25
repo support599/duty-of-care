@@ -54,11 +54,34 @@ body {
 .logo-name    { height: 18px; width: auto; display: block; }
 .menu-ellipsis { background: none; border: 0; padding: var(--sp-1); cursor: pointer; }
 
+/* ── Banner ──────────────────────────── */
+.hero-banner {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+}
+.hero-banner-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* ── Hero section ────────────────────── */
 .hero {
-  padding: var(--sp-3) 0 var(--sp-6);   /* 24px top, 64px bottom */
+  padding: 0 0 var(--sp-6);
 }
 .hero-inner { text-align: center; }
+.hero-card {
+  background: #f1f5f7;
+  margin-top: -16px;
+  position: relative;
+  z-index: 2;
+  padding: var(--sp-5) var(--sp-4) var(--sp-5);
+  box-shadow: 0 16px 40px rgba(11, 23, 54, 0.12);
+}
+@media (max-width: 700px) {
+  .hero-card { margin-top: -8px; padding: var(--sp-4) var(--sp-3) var(--sp-3); }
+}
 
 /* ── Typography ──────────────────────── */
 .desk-break {
@@ -71,6 +94,14 @@ body {
   .desk-break::before {
     content: ' ';
   }
+}
+.hero-tagline {
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+  margin: 0 0 var(--sp-2);
 }
 .hero-title {
   font-size: clamp(30px, 4vw, 44px);
